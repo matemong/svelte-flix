@@ -9,5 +9,8 @@
 	<ResultsPage
 		movies={data.movies}
 		next={data.next_page ? `/movies/${data.view}?page=${data.next_page}` : null}
-	/>
+        on:end={()=>{
+            console.log("todo");
+        }}
+        />
 </div>

@@ -48,7 +48,6 @@
 
 <svelte:window on:resize={handle_resize} />
 
-<p>showing items {a} - {b}</p>
 <div bind:this={viewport} class="viewport" on:scroll={handle_scroll}>
 	<div
 		bind:this={results}
@@ -68,7 +67,6 @@
 
 <style>
 	.viewport {
-		height: 200px;
 		overflow-y: auto;
 	}
 	.results {

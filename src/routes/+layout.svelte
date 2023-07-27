@@ -44,6 +44,11 @@
 		display: flex;
 		gap: 1rem;
 	}
+	main{
+		height: 0;
+		flex: 1;
+		overflow: hidden;
+	}
     footer {
         display: flex;
         justify-content: center;
